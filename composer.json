@@ -1,7 +1,6 @@
 {
     "name": "cyberhobo/media-collections",
     "description": "Add collections to the WordPress media library.",
-    "type": "library",
     "license": "MIT",
     "authors": [
         {
