@@ -1,0 +1,22 @@
+{
+    "name": "cyberhobo/media-collections",
+    "description": "Add collections to the WordPress media library.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dylan Kuhn",
+            "email": "dylan@cyberhobo.net"
+        }
+    ],
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/cyberhobo/custom-content"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "cyberhobo/custom-content-php54": "dev-master"
+    }
+}

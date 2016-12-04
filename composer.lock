@@ -1,0 +1,337 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "46b7ad500a2f8edbd4e1617bd2dd4cdb",
+    "content-hash": "a94b7e52a44e7b6019fb292a1753141e",
+    "packages": [
+        {
+            "name": "brightnucleus/config",
+            "version": "v0.4.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brightnucleus/config.git",
+                "reference": "c15e27d302e4025e454252858462a1ba2a6ed5f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brightnucleus/config/zipball/c15e27d302e4025e454252858462a1ba2a6ed5f6",
+                "reference": "c15e27d302e4025e454252858462a1ba2a6ed5f6",
+                "shasum": ""
+            },
+            "require": {
+                "brightnucleus/exceptions": ">=0.2",
+                "symfony/options-resolver": ">=2.8"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "^1.6",
+                "php-composter/php-composter-phpcs-psr2": "^0.2.0",
+                "phpunit/phpunit": "~4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BrightNucleus\\Config\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alain Schlesser",
+                    "email": "alain.schlesser@gmail.com"
+                }
+            ],
+            "description": "Minimal, reusable Config component.",
+            "time": "2016-07-22 13:10:05"
+        },
+        {
+            "name": "brightnucleus/contracts",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brightnucleus/contracts.git",
+                "reference": "dee397db41a602ab57c0829c05ecfdafb5460464"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brightnucleus/contracts/zipball/dee397db41a602ab57c0829c05ecfdafb5460464",
+                "reference": "dee397db41a602ab57c0829c05ecfdafb5460464",
+                "shasum": ""
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "~2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BrightNucleus\\Contract\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Alain Schlesser",
+                    "email": "alain.schlesser@gmail.com"
+                }
+            ],
+            "description": "Set of segregated interfaces that are reused across different Bright Nucleus components.",
+            "time": "2016-02-17 11:46:26"
+        },
+        {
+            "name": "brightnucleus/exceptions",
+            "version": "v0.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brightnucleus/exceptions.git",
+                "reference": "10baa93467fc7c9fed68cf98733222dd029afa5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brightnucleus/exceptions/zipball/10baa93467fc7c9fed68cf98733222dd029afa5f",
+                "reference": "10baa93467fc7c9fed68cf98733222dd029afa5f",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4",
+                "squizlabs/php_codesniffer": "~2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BrightNucleus\\Exception\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Alain Schlesser",
+                    "email": "alain.schlesser@gmail.com"
+                }
+            ],
+            "description": "Exceptions shared across Bright Nucleus components.",
+            "time": "2016-06-08 09:20:26"
+        },
+        {
+            "name": "brightnucleus/localization",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brightnucleus/localization.git",
+                "reference": "8705bcccf54f4b19d50ed871364d6a6c2b8cffcd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brightnucleus/localization/zipball/8705bcccf54f4b19d50ed871364d6a6c2b8cffcd",
+                "reference": "8705bcccf54f4b19d50ed871364d6a6c2b8cffcd",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BrightNucleus\\Localization\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alain Schlesser",
+                    "email": "alain.schlesser@gmail.com"
+                }
+            ],
+            "description": "WordPress localization for Bright Nucleus components.",
+            "time": "2016-08-15 08:28:21"
+        },
+        {
+            "name": "cyberhobo/custom-content-php54",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cyberhobo/custom-content.git",
+                "reference": "2ffa75a187d9d6294307596bba80fdcbc0f22499"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cyberhobo/custom-content/zipball/2ffa75a187d9d6294307596bba80fdcbc0f22499",
+                "reference": "2ffa75a187d9d6294307596bba80fdcbc0f22499",
+                "shasum": ""
+            },
+            "require": {
+                "brightnucleus/config": ">=0.4.3",
+                "brightnucleus/contracts": ">=0.1.1",
+                "brightnucleus/exceptions": "^0.2.5",
+                "brightnucleus/localization": ">=0.1.0",
+                "doctrine/collections": "^1.3",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "brain/monkey": "^1",
+                "phpunit/phpunit": "~4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BrightNucleus\\CustomContent\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alain Schlesser",
+                    "email": "alain.schlesser@gmail.com"
+                }
+            ],
+            "description": "Config-driven WordPress Custom Content Definitions (Custom Post Types, Custom Taxonomies).",
+            "support": {
+                "source": "https://github.com/cyberhobo/custom-content/tree/master",
+                "issues": "https://github.com/cyberhobo/custom-content/issues"
+            },
+            "time": "2016-12-04 02:26:10"
+        },
+        {
+            "name": "doctrine/collections",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/collections.git",
+                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
+                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Collections\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Collections Abstraction library",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "array",
+                "collections",
+                "iterator"
+            ],
+            "time": "2015-04-14 22:21:58"
+        },
+        {
+            "name": "symfony/options-resolver",
+            "version": "v3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/options-resolver.git",
+                "reference": "45940bcad6388b3b6058107eca67ced738d205bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/45940bcad6388b3b6058107eca67ced738d205bb",
+                "reference": "45940bcad6388b3b6058107eca67ced738d205bb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\OptionsResolver\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony OptionsResolver Component",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "config",
+                "configuration",
+                "options"
+            ],
+            "time": "2016-05-13 18:13:23"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "cyberhobo/custom-content-php54": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
